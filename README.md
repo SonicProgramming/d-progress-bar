@@ -8,6 +8,9 @@ After adding `progress.d` to your sources just compile them as usual.
 
 # Example
 The example program shows you how the progress bar works. You can either use DMD to compile it: `dmd -O example.d progress.d`
+
 Or use rdmd: `rdmd example.d progress.d`
+
 Or use the bash script: `./run-sample.sh`
+
 Don't forget that you first give the compiler the module which contains an entry point and then all other files.
