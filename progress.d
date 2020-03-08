@@ -60,7 +60,7 @@ class Progress {
 			}
 		}
 		float percent2 = to!int(percent / 0.5);
-		percent2 = percent2 * 0.5;
+		percent2 = percent2 / 2;
 		
 		string percentText = text(percent2);
 		if (percentText.length < 4) {
